@@ -3,52 +3,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Logichh Portfolio</title>
+  <title>Logichh — Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Logichh</h1>
-    <nav>
-      <a href="#projects">Projects</a>
-    </nav>
+    <div class="container">
+      <div class="avatar">
+        <img src="profile.png" alt="Profile photo">
+      </div>
+      <div class="intro">
+        <h1>Logichh</h1>
+        <p>Creative Developer & Designer</p>
+      </div>
+    </div>
   </header>
 
   <main>
-    <section class="hero" data-aos="fade-up">
-      <h2>Creative Developer & Designer</h2>
-      <p>I craft websites, tools, and visuals that feel alive.</p>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate developer focused on crafting immersive digital experiences.
+        With a background in design and engineering, I bridge the gap between visuals and logic.
+      </p>
     </section>
 
-    <section id="projects" class="projects" data-aos="fade-up">
-      <div class="project" data-aos="zoom-in">
-        <h3>Project One</h3>
-        <p>A beautiful project about awesome tech and creative expression.</p>
-      </div>
-      <div class="project" data-aos="zoom-in" data-aos-delay="100">
-        <h3>Project Two</h3>
-        <p>An engaging app that solves real problems with style.</p>
-      </div>
-      <div class="project" data-aos="zoom-in" data-aos-delay="200">
-        <h3>Project Three</h3>
-        <p>A design system and portfolio showcase for modern clients.</p>
+    <section class="projects">
+      <h2>Selected Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Project One</h3>
+          <p>Brief description of what the project does and why it matters.</p>
+        </div>
+        <div class="project-card">
+          <h3>Project Two</h3>
+          <p>Brief description of what the project does and why it matters.</p>
+        </div>
+        <div class="project-card">
+          <h3>Project Three</h3>
+          <p>Brief description of what the project does and why it matters.</p>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Logichh. Crafted with intention.</p>
+    <p>© 2025 Logichh. All rights reserved.</p>
   </footer>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true
-    });
-  </script>
 </body>
 </html>
