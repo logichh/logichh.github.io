@@ -3,64 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Logichh – Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Logichh Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    window.addEventListener('DOMContentLoaded', () => {
-      AOS.init({ once: true, duration: 1000, offset: 80 });
-    });
-  </script>
 </head>
 <body>
-  <header data-aos="fade-down">
+  <header>
     <h1>Logichh</h1>
     <nav>
-      <a href="#">Home</a>
       <a href="#projects">Projects</a>
-      <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
     <section class="hero" data-aos="fade-up">
-      <h2>Creative Developer & Problem Solver</h2>
-      <p>Welcome to my portfolio. I build engaging, performant digital experiences.</p>
+      <h2>Creative Developer & Designer</h2>
+      <p>I craft websites, tools, and visuals that feel alive.</p>
     </section>
 
-    <section class="projects" id="projects">
+    <section id="projects" class="projects" data-aos="fade-up">
       <div class="project" data-aos="zoom-in">
         <h3>Project One</h3>
-        <p>A short description of the project, what tech was used, and the outcome.</p>
+        <p>A beautiful project about awesome tech and creative expression.</p>
       </div>
       <div class="project" data-aos="zoom-in" data-aos-delay="100">
         <h3>Project Two</h3>
-        <p>A short description of the project, what tech was used, and the outcome.</p>
+        <p>An engaging app that solves real problems with style.</p>
       </div>
       <div class="project" data-aos="zoom-in" data-aos-delay="200">
         <h3>Project Three</h3>
-        <p>A short description of the project, what tech was used, and the outcome.</p>
+        <p>A design system and portfolio showcase for modern clients.</p>
       </div>
     </section>
 
-    <section class="contact" id="contact" data-aos="fade-up">
+    <section id="contact" data-aos="fade-up">
       <h2>Contact Me</h2>
-      <form action="https://formspree.io/f/your-id" method="POST">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send</button>
+      <form action="https://formspree.io/f/YOUR_ID_HERE" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+        <button type="submit">Send Message</button>
       </form>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Logichh. All rights reserved.</p>
+    <p>© 2025 Logichh. Crafted with intention.</p>
   </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+      once: true
+    });
+  </script>
 </body>
 </html>
